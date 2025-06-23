@@ -43,4 +43,22 @@ android:orientation="vertical"
             android:textStyle="bold"/>
 
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerEstudiantes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6200ee"
+        android:text="Añadir Estudiante"
+        android:textColor="#ffffff"
+        />
+
 </LinearLayout>

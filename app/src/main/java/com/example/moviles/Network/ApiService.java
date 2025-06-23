@@ -23,6 +23,6 @@ public interface ApiService {
     @PUT("ApiRest.php")
     Call<Object> actualizarEstudiante(@Query("cedula") String cedula,@Body Estudiante estudiante);
 
-    @DELETE("ApiREst.php")
+    @DELETE("ApiRest.php")
     Call<Object> eliminarEstudiante(@Query("cedula") String cedula);
 }
